@@ -1,0 +1,13 @@
+{
+  "name": "presupuestos-al-dia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node tests/worker.mjs && node tests/gmail.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

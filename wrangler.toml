@@ -1,0 +1,4 @@
+name = "presupuestos-al-dia"
+main = "dist/worker.js"
+compatibility_date = "2026-10-26"
+workers_dev = true
